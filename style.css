@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #303030;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    padding: 35px 0px 38px 96px;
+}
+
+#menu p {
+    padding-right: 35px;
+}
+
+#buttonLogin {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    width: 80px;
+    height: 30px;
+    background: #0C70F2;    
+    border: none;
+    outline-style: none;
+    margin-right: 98px;
+}
+
+#information h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    padding-top: 96px;
+    padding-bottom: 26px;
+}
+
+#information p {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#information {
+    text-align: center;
+    
+}
+
+.destaque {
+    background-color: black;
+}
+
+#container {
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 19.91%, rgba(12, 112, 242, 0.00) 34.84%), #303030;
+}
+
+label {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+form {
+    margin-top: 191px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dados {
+    width: 420px;
+    height: 32px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: none;
+    outline-style: none;
+}
+
+#areaCheck {
+    display: flex;
+    justify-content: space-between;
+}
+
+.interesse input {
+    margin-right: 12px;
+}
+
+#areaInteresse {
+    width: 422px;
+    margin-top: 35px;
+    margin-bottom: 34px;
+}
+
+#areaCheck {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+textarea {
+    margin-top: 8px;
+    margin-bottom: 82px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 10px;
+    outline-style: none;
+}
+
+form button {
+    width: 430px;
+    height: 40px;
+    background: rgba(12, 112, 242, 0.90);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 268px;
+    border: none;
+    border-radius: 7px;
+}
+
+#menuInferior {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#escola {
+    display: flex;
+    justify-content: space-around;
+}
+
+#localizacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+}
+
+li {
+    list-style-type: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 8px;
+}
+
+#rodape {
+    padding-top: 56px;
+    background: #0C70F2;
+}
+
+h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.back {
+    background-color: #303030ea;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+ul {
+    padding: 0;
+}
+
+#termos {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#cadastro:hover {
+    cursor: pointer;
+    transform: translateY(-6px);
+    transition-duration: 0,9s;
+    background-color: #2f5f9e;
+    box-shadow: 0 8px 8px  #0C70F2;
+}

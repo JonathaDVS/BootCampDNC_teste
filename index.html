@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>BOOTCAMP DNC</title>
+</head>
+<body>
+    <!--CABEÇALHO-->
+    <div  id="header">
+        <div id="menu">
+            <p>Home</p>
+            <p>Ultimas Edições</p>
+            <p>Requisitos para Participar</p>
+        </div>
+        <button id="buttonLogin"><a target="_blank" href="https://app.dnc.group/">Login</a></button>
+    </div>
+
+    <div id="container">
+        <!--INFORMAÇÕES-->
+        <div id="information">
+            <h1>BOOTCAMP DNC</h1>
+            <p>Esse será um evento exclusivo para todos os alunos<br>
+                da <b>DNC</b>, que querem <span class="destaque">acelerar a carreira</span> com uma<br>
+                semana intensiva de conteúdo de mercado entre<br>
+                <span class="destaque"><b>BACK-END, FRONT-END & BANCO DE DADOS</b>.</span></p>
+        </div>
+
+        <!--FORMULÁRIO-->
+        <div id="formulario">
+            <form action="https://api.sheetmonkey.io/form/bfbPfmUAMP23fjwQx3KoiK" method="post">
+                <div>
+                    <label for="">Nome:</label><br>
+                    <input class="dados" required name="Name" placeholder="Insira seu nome aqui" type="text"><br>
+                </div>
+                
+                <div>
+                    <label for="">Sobrenome:</label><br>
+                    <input class="dados" required name="Sobrenome" placeholder="Insira seu sobrenome aqui" type="text"><br>
+                </div>
+                
+                <div id="areaInteresse">
+                    <label for="">Área de interesse:</label><br>
+                    <div id="areaCheck">
+                        <p class="interesse"><input type="checkbox" name="FrontEnd" id="">Front-End</p>
+                        <p class="interesse"><input type="checkbox" name="BackEnd" id="">Back-End</p>
+                        <p class="interesse"><input type="checkbox" name="Dados" id="">Banco de Dados<br></p>
+                    </div>
+                </div>
+                
+                <div>
+                    <label for="">E-mail:</label><br>
+                    <input class="dados" required name="E-mail" placeholder="Insira seu e-mail aqui" type="email"><br>
+                </div>
+                
+                <div>
+                    <label for="">Telefone:</label><br>
+                    <input class="dados" required name="Phone" placeholder="(99) 99999-9999" type="tel"><br>
+                </div>
+                
+                <div>
+                    <label for="">Insira uma frase criativa aqui:</label><br>
+                    <textarea required placeholder="Qual frase criativa você gostaria de falar?:)" name="Frase" id="" cols="56" rows="2"></textarea>
+                </div>
+
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+
+                <button id="cadastro" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!--RODAPÉ-->
+    <div id="rodape">
+        <div id="menuInferior">
+            <div id="escola">
+                <div id="formacoes">
+                    <h2><span class="back">Escolas</span></h2>
+                    <ul>
+                        <li><a target="_blank" href="https://www.escoladnc.com.br/formacao-em-tecnologia/">Formação em Tecnologia</a></li>
+                        <li><a target="_blank" href="https://www.escoladnc.com.br/formacao-em-marketing/">Formação em Marketing</a></li>
+                        <li><a target="_blank" href="https://www.escoladnc.com.br/formacao-em-dados/">Formação em Dados</a></li>
+                        <li><a target="_blank" href="https://www.escoladnc.com.br/formacao-em-projetos/">Formação em Projetos</a></li>
+                        <li><a target="_blank" href="https://www.escoladnc.com.br/formacao-em-produto/">Formação em Produto</a></li>
+                    </ul>
+                </div>
+    
+                <div id="infoEscola">
+                    <h2><span class="back">Sobre a DNC</span></h2>
+                    <ul>
+                        <li><a target="_blank" href="https://www.escoladnc.com.br/sobre-nos/">História</a></li>
+                        <li><a target="_blank" href="https://www.escoladnc.com.br/sobre-nos/">Missão e Valores</a></li>
+                        <li><a target="_blank" href="https://carreiradnc.traffit.com/career/">Trabalhe Conosco</a></li>
+                        <li><a target="_blank" href="https://www.escoladnc.com.br/blog/">Conteúdo Gratuito</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="localizacao">
+                <p>© 2022 DTC Treinamentos & Consultoria<br>
+                    LTDA | CNPJ: 27.995.577/0001-37 | R.<br>
+                    Justino Cobra, 61 – Vila Ema | São José dos<br>
+                    Campos – SP | CEP 12243-030</p>
+            </div>
+        </div>
+
+        <div id="termos">
+            <p>Termos de Uso | Política de Privacidade</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
